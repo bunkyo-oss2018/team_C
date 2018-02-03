@@ -1,1 +1,26 @@
 FreeBSD
+
+【インストールソース】
+https://www.freebsd.org/ja/where.html
+
+【webページ】
+172.20.22.64
+
+【やりたかったこと】
+Apache + PHP + MySQLの環境構築
+
+【結論】
+上記の環境構築を行う前に、以下のプログラムをインストールした。
+  (GUI環境)
+    X Window System
+    KDE
+    
+  (ソフトウェア)
+    vim
+    cmake
+    
+次にキーボードレイアウトを日本語キーボードに設定し、Apache、PHP、MySQLをtar/configure/make install(cmake)した。
+ApacheとPHPに関してはインストールし、httpd.confと呼ばれるwebサーバの設定ファイルにPHPをスクリプトとして実行するように書き換えた。
+MySQLはストレージエンジンにInnoDBを採用する予定で、それでcmakeしたのだが、途中で仮想マシンの空き容量が少ないというエラーのために強制終了。ここで終わった。
+
+仮想マシンのネットワーク設定でブリッジ接続をするように設定し、今では外から見られるようになっている。
