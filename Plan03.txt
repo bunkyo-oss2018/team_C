@@ -1,4 +1,11 @@
 Puppy Linux
 
+【インストールソース】
 http://puppylinux.org/main/Overview%20and%20Getting%20Started.htm
 http://openlab.jp/puppylinux/#dl
+
+【やりたかったこと】
+Apache + PHP + MySQLの環境構築
+
+【結論】
+makeがなくApacheの時点でインストールにつまづいた。
