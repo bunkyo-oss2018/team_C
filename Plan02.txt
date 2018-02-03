@@ -2,7 +2,7 @@ Ubuntu
 
 https://www.ubuntu.com/
 
-Apache 2.2
+Apache
 
 PHP
 
