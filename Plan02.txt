@@ -1,9 +1,11 @@
 Ubuntu
 
+【インストールソース】
 https://www.ubuntu.com/
 
-Apache
+【やりたかったこと】
+Apache + PHP + MySQLの環境構築
 
-PHP
-
-MySQL
+【結論】
+Apache、PHP、MySQLをそれぞれソースからtar/configure/make installを実行し、インストールに成功した。
+仮想マシン内でwebサーバーを実行することができたが、PHPとApacheの連携がうまく行えず.phpなファイルをスクリプトとして実行することはできなかった。
